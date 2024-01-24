@@ -1,0 +1,9 @@
+p, ul {
+  text-align: left;
+}
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
