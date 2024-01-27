@@ -18,8 +18,8 @@
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #FFFFFF;
 
-$mainColor: #fff;
-$headingColor: #fff;
+$mainColor: #000000;
+$headingColor: rgb(94, 39, 221);
 
 $mainFontSize: 42px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
@@ -28,7 +28,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
-$linkColor: #42affa;
+$linkColor: rgb(94, 39, 221);
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: rgba( $linkColor, 0.75 );
 

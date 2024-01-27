@@ -1,28 +1,28 @@
 /**
- * White theme for reveal.js. This is the opposite of the 'black' theme.
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
  *
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
-  color: #fff;
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #222;
 }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #fff;
+  --r-background-color: #FFFFFF;
   --r-main-font: Source Sans Pro, Helvetica, sans-serif;
   --r-main-font-size: 42px;
-  --r-main-color: #222;
+  --r-main-color: #000000;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Source Sans Pro, Helvetica, sans-serif;
-  --r-heading-color: #222;
+  --r-heading-color: #5e27dd;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
-  --r-heading-text-transform: uppercase;
+  --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
   --r-heading-font-weight: 600;
   --r-heading1-text-shadow: none;
@@ -31,15 +31,15 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #2a76dd;
-  --r-link-color-dark: #1a53a1;
-  --r-link-color-hover: #6ca0e8;
-  --r-selection-background-color: #98bdef;
+  --r-link-color: #5e27dd;
+  --r-link-color-dark: #41199f;
+  --r-link-color-hover: #8f69e7;
+  --r-selection-background-color: rgba(94, 39, 221, 0.75);
   --r-selection-color: #fff;
 }
 
 .reveal-viewport {
-  background: #fff;
+  background: #FFFFFF;
   background-color: var(--r-background-color);
 }
 
@@ -354,4 +354,17 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+.footer {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.footer .logo {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+.footer .logo .svg-text {
+  fill: white;
 }
