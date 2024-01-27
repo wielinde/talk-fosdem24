@@ -45,6 +45,12 @@ $heading4Size: 1.0em;
 @import "../template/theme";
 // ---------------------------------------------
 
+.reveal {
+  .r-frame {
+    border-color: rgb(94, 39, 221)
+  }
+}
+
 
 .footer {
   position: fixed;

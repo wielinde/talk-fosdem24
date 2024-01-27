@@ -355,6 +355,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-color: var(--r-background-color);
   }
 }
+.reveal .r-frame {
+  border-color: #5e27dd;
+}
+
 .footer {
   position: fixed;
   top: 0;
