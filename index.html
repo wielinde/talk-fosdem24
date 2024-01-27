@@ -13,7 +13,9 @@
   <!-- Theme used for syntax highlighted code -->
   <link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
+
 <body>
+
 <div class="reveal">
   <div class="slides">
     <section>
@@ -62,7 +64,7 @@
     <section>
       <h4 class="r-fit-text">Sovereign workplaces in western EU</h4>
       <p>
-        2015 - 2020 : Growing concerns regarding US-based cloud offerings
+        2015 - 2020: Growing concerns regarding US-based cloud offerings
       </p>
       <ul>
         <li>Lack of control</li>
@@ -76,7 +78,7 @@
     <section>
       <h4 class="r-fit-text">Sovereignty &amp; and security constraints</h4>
       <p>
-        2020+ : Inception of global strategies for sovereign clouds
+        2020+: Inception of global strategies for sovereign clouds
       </p>
       <ul>
         <li>France 🇫🇷: Cloud Nubo &amp; Cloud π</li>
@@ -87,7 +89,7 @@
       </p>
       <ul>
         <li>Ensures software quality and prevent extraterritoriality</li>
-        <li>Long term vision : one unified standard in the EU, ESCloud</li>
+        <li>Long term vision: one unified standard in the EU, ESCloud</li>
       </ul>
       <aside class="notes">
       </aside>
@@ -104,10 +106,10 @@
       </ul>
       <aside class="notes">
         In February 2022, BPI launches the call for participation "Suites bureautiques collaboratives cloud".
-        Development planned over 4 years ; the goal is to create solutions that are :
+        Development planned over 4 years; the goal is to create solutions that are:
         <ul>
           <li>Sovereign (basically made with <i>french</i> technology)</li>
-          <li>Secured : obligation of compliance with SecNumCloud</li>
+          <li>Secured: obligation of compliance with SecNumCloud</li>
         </ul>
         Projects are financed by the France 2030 fund. The financing is split between a loan and a subsidy.
         The 3 consortiums that win the call do contain some open source software solutions (XWiki, CryptPad, BlueMind, Linphone),
@@ -151,7 +153,7 @@
         <li>Unified user directory, managed by Univention</li>
         <li>OpenID Connect authentication on every component</li>
         <li>Unified navigation menu across applications</li>
-        <li>Broader integrations for some applications (e.g. file picker)</li>
+        <li>Deep integrations between applications (e.g. files, contacts, calendars, tasks,...)</li>
       </ul>
     </section>
 
@@ -184,7 +186,7 @@
         First stable version available in February 2024
       </p>
       <ul>
-        <li>Includes every app you saw in the demo :)</li>
+        <li>Includes every app you saw in the demo:)</li>
       </ul>
       <p>
         During 2024
@@ -196,11 +198,34 @@
     </section>
 
     <section>
-      <h4 class="r-fit-text">openDesk - Risks</h4>
+      <h4 class="r-fit-text">A big opportunity for vendors</h4>
       <ul>
-        <li>UI / UX integration : need for each vendor to create an "openDesk overlay"</li>
+        <li>Simplified procurement</li>
+        <li>Access to a huge market</li>
+        <li>Trust in the software</li>
+        <li>Added value through deep integrations</li>
+        <li>Focus on own strengths</li>
+      </ul>
+    </section>
+
+    <section>
+      <h4 class="r-fit-text">High standards</h4>
+      <ul>
+        <li>Provisioning as HELM charts</li>
+        <li>Accessibility and UX audits</li>
+        <li>Security audits and certifications</li>
+        <li>Multiplying value through deep integrations</li>
+        <li>Focus on own strengths</li>
+      </ul>
+    </section>
+
+    <section>
+      <h4 class="r-fit-text">Challenges</h4>
+      <ul>
+        <li>UI/UX integration: need for each vendor to create an "openDesk overlay"</li>
         <li>Feature overlap between different solutions</li>
         <li>Maintenance of customization outside of the core</li>
+        <li>Wide range of business models</li>
         <li>
           Offerings
           <ul>
@@ -208,6 +233,93 @@
             <li>In the EU 🇪🇺!</li>
           </ul>
         </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Example</h3>
+      <h4>Deep integration of Nextcloud and OpenProject</h4>
+      <aside class="notes">
+        Let's have a look what it really means to deeply integrate two systems
+      </aside>
+    </section>
+
+    <section>
+      <h1 class="r-fit-text">OpenProject is a collaborative project management system</h1>
+      <video class="home-video" id="home-video" autoplay="" loop="" muted="" playsinline="" poster="images/video-fallback.png" data-src="images/OpenProject-workflow-animation-720p.mp4" data-width-now="700" src="images/OpenProject-workflow-animation-1080p.mp4"></video>
+      <aside class="notes">
+        Super quick explanation of what is OpenProject
+        <ul>
+          <li>Do you know JIRA? We are similar but open source, and you can host in on your own server, or get it hosted by us</li>
+          <li>You don't know JIRA? Think of task lists that you share with your team. Daimler plans cars with it, I think. Actually, I don't know. It runs on their servers :-)</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section>
+      <h2>The real challenges of an organisation</h2>
+      <ul>
+        <li>Problem 1: <i style="font-style: italic;">"Where are the files for my task?"</i></li>
+        <li>Problem 2: <i style="font-style: italic;">"Does everyone in my team have access?"</i></li>
+        <li>Problem 3: <i style="font-style: italic;">"I want similar projects to easily follow the same structure"</i></li>
+      </ul>
+      <aside class="notes">
+        Exactly what the public sector is doing all day long.
+        <ul>
+          <li>There are almost no files without a task</li>
+          <li>There are almost tasks without files</li>
+          <li>There is almost no team with a shared folder somewhere</li>
+          <li>Repeating projects, tasks, files and folder structures need templates</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section>
+      <h3 class="r-fit-text">In OpenProject: Show relevant files/folders for a work package</h3>
+      <img class="r-frame" src="images/work_package.png" width="1000">
+    </section>
+
+    <section>
+      <h3 class="r-fit-text">In OpenProject: Share access by saving files in the project folder</h3>
+      <img class="r-frame" src="images/location_picker.png" width="700">
+      <aside class="notes">
+        <a href="https://www.tldraw.com/s/v2_c_XQ7NI60LUaMaVIEi47wJl?viewport=-3%2C-8%2C1882%2C939&page=page%3AqTeJUVAmyp3iwOPWy-FA4">
+          TL;DRAW
+        </a>
+      </aside>
+    </section>
+
+    <section>
+      <h3 class="r-fit-text">In Nextcloud: Link a file/folder to a work package</h3>
+      <img class="r-frame" src="images/file.png" width="1000">
+    </section>
+
+    <section>
+      <h1 class="r-fit-text">Project templates improve quality and speed</h1>
+      <ul>
+        <li>Provide template task list</li>
+        <li>with related template files</li>
+        <li>in a template folder structure.</li>
+      </ul>
+      <aside class="notes">
+        ...to ensure
+        <ul>
+          <li>not to forget important steps</li>
+          <li>speed up the process</li>
+          <li>improve quality</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section>
+      <h4 class="r-fit-text">Integration of Nextcloud and OpenProject</h4>
+      <ul>
+        <li>OpenProject has very basic file management</li>
+        <li>Nextcloud has very basic task management</li>
+        <li>Integration allows to focus on each others core strengths</li>
+        <li>Integration also outside of openDesk of great value</li>
+        <li>Common clients asks for integration rather than feature duplication</li>
+        <li>Deep integration also in sales</li>
       </ul>
     </section>
 
